@@ -1,0 +1,35 @@
+App\Entity\User:
+  super_admin_user:
+    name: <firstName()>
+    email: superadmin@example.com
+    password: 'dfewaf6y78i81qs2w34r55' 
+    roles:
+      - ROLE_SUPER_ADMIN
+  company_admin_user:
+    name: <firstName()>
+    email: companydmin@example.com
+    company: '@company_1'
+    password: 'dfewaf6y78i81qs2w34r55'
+    roles:
+      - ROLE_COMPANY_ADMIN
+  user_compnay1_1:
+    name: <firstName()>
+    email: company1user@example.com
+    company: '@company_1'
+    password: 'dfewaf6y78i81qs2w34r55'
+    roles:
+      - ROLE_USER
+  user_compnay1_2:
+    name: <firstName()>
+    email: <email()>
+    company: '@company_1'
+    password: 'dfewaf6y78i81qs2w34r55'
+    roles:
+      - ROLE_USER
+  user_compnay2_1:
+    name: <firstName()>
+    email: company2user@example.com
+    company: '@company_2'
+    password: 'dfewaf6y78i81qs2w34r55'
+    roles:
+      - ROLE_USER

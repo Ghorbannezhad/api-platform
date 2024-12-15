@@ -1,0 +1,13 @@
+App\Entity\ApiToken:
+    api_token_1:
+        user: '@super_admin_user'
+        token: Mjzuzui6OP4GTIzPyYFvDQfwDk3YB43A3GWIhyog8HzCqumM5c8cYK4RluQC50A3
+    api_token_2:
+        user: '@company_admin_user'
+        token: 2aaOMGpjRKzi2korX1SW1Llt0UUCvo7xm4eOqKYF6bbG95AwBsglve8GTGGULVPC
+    api_token_3:
+        user: '@user_compnay1_1'
+        token: ebFQqaYip973iwOYSo4GfTAlMheZToLot5EJXsbOPGKF3L6xaFSTQ8GrLktOdLBf
+    api_token_4:
+        user: '@user_compnay2_1'
+        token: hDf4GZmUSIPdMP8y5z18OmZWE1r2XbcJXHFvBoXaVUjQ2pAIPC0pxHeSrJrRezM0

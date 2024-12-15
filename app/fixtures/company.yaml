@@ -1,0 +1,7 @@
+App\Entity\Company:
+    company_1:
+        name: <company()>
+    company_2:
+        name: <company()>
+    company_{3..10}:
+        name: <company()>
