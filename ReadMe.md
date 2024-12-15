@@ -18,8 +18,8 @@ Before setting up the project, ensure the following are installed on your system
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Ghorbannezhad/api-platform.git
+cd api-platform
 ```
 
 ### 2. Configure Environment Variables
