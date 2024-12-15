@@ -21,13 +21,20 @@ Before setting up the project, ensure the following are installed on your system
 git clone https://github.com/Ghorbannezhad/api-platform.git
 cd api-platform
 ```
+### 2. Install Dependencies
+Run the following commands to install PHP and JavaScript dependencies:
+```bash
+composer install
+docker-compose run --rm node-service yarn install
+docker-compose run --rm node-service yarn dev
+```
 
-### 2. Configure Environment Variables
+### 3. Configure Environment Variables
 Ensure the following variables are correctly set in `.env`:
 - **APP_ENV**: `dev` or `prod`
 - **DATABASE_URL**: Update with your database credentials if not using Docker.
 
-### 3. Start Docker Containers
+### 4. Start Docker Containers
 Run the following command to build and start the containers:
 ```bash
 docker-compose up -d

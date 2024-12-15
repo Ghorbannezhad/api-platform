@@ -4,7 +4,6 @@ namespace App\Tests;
 
 use Doctrine\ORM\EntityManagerInterface;
 use ApiPlatform\Symfony\Bundle\Test\ApiTestCase;
-use App\Repository\CompanyRepository;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Hautelook\AliceBundle\PhpUnit\RefreshDatabaseTrait;
 
