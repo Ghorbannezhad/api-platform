@@ -63,6 +63,27 @@ symfony console hautelook:fixtures:load
 Access the application in your browser:
 - API Documentation: [http://localhost:8090/api](http://localhost:8090/api)
 
+### Basic Usage
+If you run fixtures, you have access to different roles api token in api_toke.yaml. Use Postman or Curl to call APIs.
+
+### Example
+- Get User collection API with super admin role:
+
+```bash
+curl --location --request GET 'http://localhost:8090/api/users' \
+--header 'accept: application/ld+json' \
+--header 'Content-Type: application/ld+json' \
+--header 'x-api-token: Mjzuzui6OP4GTIzPyYFvDQfwDk3YB43A3GWIhyog8HzCqumM5c8cYK4RluQC50A3'
+```
+- Get User collection API with super admin token which impersonate user role.
+
+```bash
+curl --location --request GET 'http://localhost:8090/api/users' \
+--header 'accept: application/ld+json' \
+--header 'Content-Type: application/ld+json' \
+--header 'x-api-token: Mjzuzui6OP4GTIzPyYFvDQfwDk3YB43A3GWIhyog8HzCqumM5c8cYK4RluQC50A3'
+--header 'x-switch-user: company2user@example.com' \
+```
 ---
 
 ## Tests
